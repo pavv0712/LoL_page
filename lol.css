@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    
+}
+
+header{
+    height:123px;
+    background-color:black;
+    
+}
+/* logo 글자들 정렬 */
+#logo {
+    margin-left:365px;
+}
+#logo #main h1 span{
+    width: 300px;
+    float:left;
+    margin-top: 50px;
+    
+}
+
+#logo #main h1 #lea{
+    float:left;
+    color:white;
+}
+
+#logo #main h1 #Who{
+    color:white;
+}
+/* 메뉴 위치 조절 */
+nav #menu{
+    height:45px;
+    background-color:rgba(53, 52, 63, 0.11);
+    padding-top: 20px;
+}
+
+nav li{
+    margin:30px;
+    display:inline;
+}
+
+nav li a{
+  text-decoration: none;
+  color:black;
+}
+/* 멘트 위치 조절 */
+#ment {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+  /* Fotter */
+#fotter {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    line-height: 200px;
+    height: 200px;
+    background-color: #384452;
+}
