@@ -2,8 +2,9 @@
     margin: 0px;
     padding:0px;
     text-align: center;
-    
 }
+
+/* logo부분 배경색 */
 
 header{
     height:123px;
@@ -11,25 +12,34 @@ header{
     
 }
 /* logo 글자들 정렬 */
-#logo {
-    margin-left:365px;
+
+header > div{
+    width: 800px;
+    margin: 0 auto;
+    margin-left: 430px;
 }
-#logo #main h1 span{
-    width: 300px;
+
+header #logo #league, #whos {
+    color:white;
     float:left;
-    margin-top: 50px;
+    margin-top:40px;
+}
+
+header #logo #warrior img{
+    float: left;
+    width:100px;
+}
+
+#update{
+    width:1520px;
+    background-color:orange;
+}
+
+/* 메뉴 위치 조절 */
+nav {
+    width:1520px;
     
 }
-
-#logo #main h1 #lea{
-    float:left;
-    color:white;
-}
-
-#logo #main h1 #Who{
-    color:white;
-}
-/* 메뉴 위치 조절 */
 nav #menu{
     height:45px;
     background-color:rgba(53, 52, 63, 0.11);
@@ -51,12 +61,45 @@ nav li a{
     margin-bottom:50px;
 }
 
+#main {
+    width:1520px;
+}
+
+#main #sahang{
+    margin-top:50px;
+}
+
+#main #check{
+    margin-top:
+}
+
+#check {
+    width:1500px;
+}
+
   /* Fotter */
 #fotter {
+    width:1520px;
     text-align: center;
     color: white;
     font-weight: 200;
     line-height: 200px;
     height: 200px;
     background-color: #384452;
+}
+
+/* whoswin page css */
+
+#cal {
+    width:1520px;
+}
+
+#cal #search {
+    margin-top:30px;
+    size:500px;
+}
+#champ{
+    width:1520px;
+    margin:0 auto;
+
 }

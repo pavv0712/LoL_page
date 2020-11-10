@@ -3,40 +3,48 @@
 <head>
     <title>WhoTheWinner</title>
     <link rel='stylesheet' href='./lol.css'>
+    
 </head>
 <body>
-    <div id='page'>
-        <header>
-            <div id = 'logo'>
-                <div id='main'>
-                    <div>
-                        <h1>
-                            <span id='lea'>League of Legends</span>
-                        </h1>
-                    </div>
-        
-                    <div>   
-                        <h1>
-                            <span id='Who'>WhosTheWinner</span>
-                        </h1>
-                    </div>
-                </div>
+    <header>
+        <div id = 'logo'>
+            <div id = 'league'>
+                <h1>
+                    League of Legends
+                </h1>
             </div>
-          
-        </header>
-        <div id = 'update' style='background-color:orange;'>
-                <h3>새로운 업데이트를 지금 확인해보세요!</h3>
-        </div>
-        <div id = 'menu'>
-                <a href='file:///C:/Users/ASIA_01/Desktop/홈페이지/main.html'>Home</a>
-                <a target = '_self' href='list.html'>최고/최악의 조합</a>
-                <a target = '_self' href='cal.html'>승률 계산</a>
-                <a target = '_self' href='rate.html'>전적</a>
-        </div>
+            <div id = 'warrior'>
+                <img src ='전사.png'>
+            </div>
+            <div id = 'whos'>   
+                <h1>
+                    WhosTheWinner
+                </h1>
+            </div>
+        </div>  
+    </header>
+    <div id = 'update' style='background-color:orange;'>
+            <h3>새로운 업데이트를 지금 확인해보세요!</h3>
     </div>
-    <div id = 'list'>
-        <img src='C:\Users\ASIA_01\Desktop/카운터.png' alt='list'>
+    <nav>
+        <ul id = 'menu'>
+            <li><a href='file:///C:/Users/ASIA_01/Desktop/홈페이지/main.html'>Home</a></li>
+            <li><a target = '_self' href='whoswin.html'>승률계산</a></li>
+            <li><a target = '_self' href='list.html'>챔프별 블루/레드 승률</a></li>
+            <li><a target = '_self' href='rate.html'>전적</a><li>
+        </ul>
+    </nav>
+    </div>
+    
+    <form action='https://www.op.gg/urf/champName=/statistics' method='get' target = '_blank'>
+        <label for = 'url'> 챔프 검색</label>
+            <input type = 'text' name = 'champName' value=''/>
+            <input type='submit' value='검색'/>
+    </form>
 
+    <div id="fotter">
+            Copyright C 2014 by KL-Webmedia | All rights reserved
     </div>
+
 </body>
 </html>
